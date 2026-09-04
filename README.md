@@ -1,57 +1,91 @@
-<img src="banner.svg" width="100%"/>
+<div align="center">
+  <img src="3d-banner.svg" width="100%" alt="3D Sphere Banner"/>
+</div>
+
+<h1 align="center">Exploring the next dimension of code. 🚀</h1>
+
+<p align="center">
+  <em>Specializing in scalable backend systems and immersive, interactive web experiences.</em>
+</p>
+
+---
+
+## 🔮 // my focus
+
+I'm a **Software Engineer** who bridges the gap between deep technical architecture and striking visual design. When I'm not optimizing databases or writing robust APIs, I'm probably experimenting with 3D graphics on the web or building sleek, modern interfaces.
 
 <br/>
 
-### // about
+## 🛠️ // toolkit
 
-Software developer working across the full stack, with a focus on systems that
-run in real time. *(Replace this line with your own two or three sentences —
-what you build, what you care about, what you're working on right now.)*
-
-<br/>
-
-### // stack
-
-<img src="https://img.shields.io/badge/-JavaScript-0A1929?style=flat-square&logo=javascript&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-TypeScript-0A1929?style=flat-square&logo=typescript&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-Python-0A1929?style=flat-square&logo=python&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-React-0A1929?style=flat-square&logo=react&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-Node.js-0A1929?style=flat-square&logo=node.js&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-Java-0A1929?style=flat-square&logo=openjdk&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-MongoDB-0A1929?style=flat-square&logo=mongodb&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-MySQL-0A1929?style=flat-square&logo=mysql&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-Docker-0A1929?style=flat-square&logo=docker&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-AWS-0A1929?style=flat-square&logo=amazonaws&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-Git-0A1929?style=flat-square&logo=git&logoColor=F5F7FA"/>
-<img src="https://img.shields.io/badge/-Linux-0A1929?style=flat-square&logo=linux&logoColor=F5F7FA"/>
-
-<sub>Trim or swap these for your real stack.</sub>
-
-<br/>
-
-### // work
-
-**Project name** — one line on what it does and why it exists.
-[View repo →](https://github.com/Ashutosh6226Tiwari)
-
-**Project name** — one line on what it does and why it exists.
-[View repo →](https://github.com/Ashutosh6226Tiwari)
-
-<sub>Replace both entries with real projects — repo link, and what problem each one solves.</sub>
-
-<br/>
-
-### // stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ashutosh6226Tiwari&show_icons=true&hide_border=true&bg_color=0A1929&title_color=FF6B4A&icon_color=3FA796&text_color=F5F7FA&border_color=173A5E" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashutosh6226Tiwari&layout=compact&hide_border=true&bg_color=0A1929&title_color=FF6B4A&text_color=F5F7FA&border_color=173A5E" height="165"/>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+      <br>Javascript
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js" />
+      <br>Three.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" />
+      <br>Docker
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" />
+      <br>AWS
+    </td>
+  </tr>
+</table>
 
 <br/>
 
-### // contact
+## 🏆 // github stats
 
-<img src="https://img.shields.io/badge/-LinkedIn-0A1929?style=flat-square&logo=linkedin&logoColor=F5F7FA&link=https://linkedin.com"/> &nbsp;
-<img src="https://img.shields.io/badge/-Email-0A1929?style=flat-square&logo=gmail&logoColor=F5F7FA"/> &nbsp;
-<img src="https://img.shields.io/badge/-Portfolio-0A1929?style=flat-square&logo=vercel&logoColor=F5F7FA"/>
+<div align="center">
+  <a href="https://github.com/Ashutosh6226Tiwari">
+    <img src="https://github-readme-stats.vercel.app/api?username=Ashutosh6226Tiwari&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&title_color=c084fc" height="195"/>
+  </a>
+  <a href="https://github.com/Ashutosh6226Tiwari">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashutosh6226Tiwari&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&title_color=c084fc" height="195"/>
+  </a>
+</div>
 
-<sub>Wire these badges to your real LinkedIn, email, and site links.</sub>
+<br/>
+
+## 🌐 // find me online
+
+<div align="center">
+  <a href="https://linkedin.com/in/Ashutosh6226Tiwari">
+    <img src="https://img.shields.io/badge/LinkedIn-09090b?style=for-the-badge&logo=linkedin&logoColor=c084fc" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/Ashutosh6226Tiwari">
+    <img src="https://img.shields.io/badge/GitHub-09090b?style=for-the-badge&logo=github&logoColor=c084fc" alt="GitHub" />
+  </a>
+  <a href="mailto:contact@example.com">
+    <img src="https://img.shields.io/badge/Email-09090b?style=for-the-badge&logo=minutemailer&logoColor=c084fc" alt="Email" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=c084fc&height=120&section=footer" width="100%"/>
+</div>
