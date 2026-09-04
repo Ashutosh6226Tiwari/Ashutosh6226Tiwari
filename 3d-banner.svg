@@ -1,82 +1,131 @@
 <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradient -->
+    <!-- Dark Tech Gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#09090b" />
-      <stop offset="100%" stop-color="#18181b" />
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
     </linearGradient>
 
-    <!-- Radial Gradients for 3D Spheres -->
-    <radialGradient id="sphere-cyan" cx="30%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#a5f3fc" />
-      <stop offset="20%" stop-color="#22d3ee" />
-      <stop offset="60%" stop-color="#0891b2" />
+    <!-- Glowing Node Gradients -->
+    <radialGradient id="node-main" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="40%" stop-color="#7e22ce" />
+      <stop offset="80%" stop-color="#4c1d95" />
+      <stop offset="100%" stop-color="#2e1065" />
+    </radialGradient>
+
+    <radialGradient id="node-cyan" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="40%" stop-color="#0891b2" />
       <stop offset="100%" stop-color="#164e63" />
     </radialGradient>
-
-    <radialGradient id="sphere-purple" cx="30%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#f3e8ff" />
-      <stop offset="20%" stop-color="#c084fc" />
-      <stop offset="60%" stop-color="#9333ea" />
-      <stop offset="100%" stop-color="#581c87" />
-    </radialGradient>
     
-    <radialGradient id="sphere-emerald" cx="30%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#d1fae5" />
-      <stop offset="20%" stop-color="#34d399" />
-      <stop offset="60%" stop-color="#059669" />
-      <stop offset="100%" stop-color="#064e3b" />
+    <radialGradient id="node-magenta" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="40%" stop-color="#be185d" />
+      <stop offset="100%" stop-color="#831843" />
     </radialGradient>
 
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="5" result="blur" />
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="15" stdDeviation="10" flood-color="#000" flood-opacity="0.8"/>
+    <filter id="glass" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComponentTransfer in="blur" result="glow">
+        <feFuncA type="linear" slope="0.4"/>
+      </feComponentTransfer>
+      <feComposite in="SourceGraphic" in2="glow" operator="over"/>
     </filter>
   </defs>
 
-  <!-- Background -->
+  <style>
+    @keyframes float1 {
+      0% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(5deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
+    }
+    @keyframes float2 {
+      0% { transform: translateY(0px) translateX(0px); }
+      50% { transform: translateY(20px) translateX(-10px); }
+      100% { transform: translateY(0px) translateX(0px); }
+    }
+    @keyframes float3 {
+      0% { transform: translateY(0px) scale(1); }
+      50% { transform: translateY(-10px) scale(1.05); }
+      100% { transform: translateY(0px) scale(1); }
+    }
+    @keyframes rotateRing {
+      0% { transform: rotate(0deg) scaleX(1); }
+      50% { transform: rotate(180deg) scaleX(0.8); }
+      100% { transform: rotate(360deg) scaleX(1); }
+    }
+    @keyframes drift {
+      from { transform: translateX(-100px); opacity: 0; }
+      20% { opacity: 1; }
+      80% { opacity: 1; }
+      to { transform: translateX(900px); opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+
+    .main-node { animation: float1 6s ease-in-out infinite; transform-origin: 650px 150px; }
+    .cyan-node { animation: float2 8s ease-in-out infinite; transform-origin: 450px 80px; }
+    .magenta-node { animation: float3 7s ease-in-out infinite; transform-origin: 750px 240px; }
+    .particle { fill: #c084fc; opacity: 0; }
+    .ring1 { animation: rotateRing 15s linear infinite; transform-origin: 650px 150px; }
+    .ring2 { animation: rotateRing 20s linear infinite reverse; transform-origin: 650px 150px; }
+    .glass-card { animation: float1 7s ease-in-out infinite reverse; transform-origin: center; }
+    .glow-text { animation: pulse 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Background Layer -->
   <rect width="100%" height="100%" fill="url(#bg)" />
 
-  <!-- Wireframe Floor/Grid -->
-  <g opacity="0.3" stroke="#3f3f46" stroke-width="1.5">
-    <path d="M -200,200 L 1000,200" />
-    <path d="M -300,230 L 1100,230" />
-    <path d="M -400,270 L 1200,270" />
-    <!-- Vertical lines angled for perspective -->
-    <path d="M 400,180 L 400,300" />
-    <path d="M 450,180 L 550,300" />
-    <path d="M 500,180 L 700,300" />
-    <path d="M 550,180 L 850,300" />
-    <path d="M 600,180 L 1000,300" />
+  <!-- Animated Particles (Data flow) -->
+  <g>
+    <circle cx="0" cy="50" r="2" class="particle" style="animation: drift 10s linear infinite 0s;" />
+    <circle cx="0" cy="120" r="3" class="particle" style="animation: drift 15s linear infinite 2s;" />
+    <circle cx="0" cy="180" r="1.5" class="particle" style="animation: drift 12s linear infinite 5s;" />
+    <circle cx="0" cy="250" r="2.5" class="particle" style="animation: drift 8s linear infinite 1s;" />
+    <circle cx="0" cy="90" r="2" class="particle" style="animation: drift 11s linear infinite 7s;" />
+  </g>
+
+  <!-- Animated 3D Objects -->
+  
+  <!-- Cyan Node (Top Left) -->
+  <g class="cyan-node">
+    <circle cx="450" cy="80" r="40" fill="url(#node-cyan)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Magenta Node (Bottom Right) -->
+  <g class="magenta-node">
+    <circle cx="750" cy="240" r="50" fill="url(#node-magenta)" />
+  </g>
+
+  <!-- Main Purple Node (Center Right) -->
+  <g class="main-node">
+    <circle cx="650" cy="150" r="85" fill="url(#node-main)" />
+    <!-- Rotating Rings around main node -->
+    <ellipse cx="650" cy="150" rx="140" ry="40" fill="none" stroke="#a855f7" stroke-width="2" class="ring1" />
+    <ellipse cx="650" cy="150" rx="160" ry="30" fill="none" stroke="#22d3ee" stroke-width="1.5" class="ring2" />
+    <ellipse cx="650" cy="150" rx="120" ry="50" fill="none" stroke="#f472b6" stroke-width="1" class="ring1" style="animation-duration: 25s;" />
+  </g>
+
+  <!-- Glassmorphism Card (Floating) -->
+  <g class="glass-card">
+    <rect x="50" y="80" width="390" height="140" rx="20" fill="rgba(30, 41, 59, 0.4)" stroke="rgba(148, 163, 184, 0.2)" stroke-width="1.5" filter="url(#glass)"/>
     
-    <path d="M 350,180 L 250,300" />
-    <path d="M 300,180 L 100,300" />
-    <path d="M 250,180 L -50,300" />
-    <path d="M 200,180 L -200,300" />
+    <!-- Text Content -->
+    <text x="75" y="145" font-family="'Segoe UI', 'Inter', sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="1">Ashutosh Tiwari</text>
+    <text x="78" y="185" font-family="'Segoe UI', 'Inter', sans-serif" font-size="20" font-weight="500" fill="#cbd5e1" letter-spacing="1">SOFTWARE ENGINEER <tspan fill="#a855f7">&amp;</tspan> DESIGNER</text>
+    
+    <!-- Pulsing Accent -->
+    <circle cx="65" cy="180" r="4" fill="#a855f7" class="glow-text" filter="url(#glow)"/>
   </g>
-
-  <!-- 3D Spheres -->
-  <!-- Main Sphere -->
-  <circle cx="650" cy="150" r="80" fill="url(#sphere-purple)" filter="url(#shadow)" />
-  
-  <!-- Small Cyan Sphere -->
-  <circle cx="500" cy="80" r="40" fill="url(#sphere-cyan)" filter="url(#shadow)" />
-  
-  <!-- Medium Emerald Sphere -->
-  <circle cx="750" cy="220" r="50" fill="url(#sphere-emerald)" filter="url(#shadow)" />
-
-  <!-- Floating Rings around Main Sphere -->
-  <ellipse cx="650" cy="150" rx="120" ry="30" fill="none" stroke="#d8b4fe" stroke-width="3" opacity="0.6" transform="rotate(-15 650 150)" />
-  <ellipse cx="650" cy="150" rx="140" ry="40" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.4" transform="rotate(25 650 150)" />
-
-  <!-- Text -->
-  <g filter="url(#glow)">
-    <text x="50" y="140" font-family="'Inter', -apple-system, sans-serif" font-size="56" font-weight="900" fill="#ffffff" letter-spacing="1">Ashutosh Tiwari</text>
-  </g>
-  <text x="52" y="190" font-family="'Inter', -apple-system, sans-serif" font-size="24" font-weight="500" fill="#a1a1aa" letter-spacing="0.5">Software Engineer &amp; Designer</text>
-
 </svg>
