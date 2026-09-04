@@ -6,7 +6,17 @@
   <br/>
 
   <p>
+    <a href="https://github.com/Ashutosh6226Tiwari">
+      <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=900&size=24&duration=3000&pause=1000&color=a855f7&center=true&vCenter=true&width=600&lines=Software+Engineer;Full-Stack+Developer;Creative+Designer;Problem+Solver" alt="Typing SVG" />
+    </a>
+  </p>
+
+  <p>
     <b>Architecting scalable backend systems • Crafting immersive front-end experiences</b>
+  </p>
+
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=Ashutosh6226Tiwari&label=Profile%20views&color=a855f7&style=flat" alt="Profile Views" />
   </p>
 
   <br/>
@@ -39,8 +49,22 @@
   ### 📊 GitHub Metrics
 
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Ashutosh6226Tiwari&show_icons=true&bg_color=09090b&title_color=a855f7&text_color=a1a1aa&icon_color=22d3ee&border_color=27272a&hide_border=false&border_radius=10" height="195"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashutosh6226Tiwari&layout=compact&bg_color=09090b&title_color=a855f7&text_color=a1a1aa&border_color=27272a&hide_border=false&border_radius=10" height="195"/>
+    <!-- GitHub Streak Stats (Highly Reliable) -->
+    <img src="https://streak-stats.demolab.com/?user=Ashutosh6226Tiwari&theme=dark&background=09090b&border=27272a&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideNums=a1a1aa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa" height="195" alt="GitHub Streak" />
+    
+    <!-- Profile Summary Cards -->
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ashutosh6226Tiwari&theme=radical" height="195" alt="GitHub Profile Summary" />
+  </p>
+
+  <p>
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Ashutosh6226Tiwari&theme=radical" height="195" alt="Top Languages Donut" />
+  </p>
+
+  <br/>
+
+  ### 🎯 Current Focus
+  <p>
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=16&duration=4000&pause=1000&color=22d3ee&center=true&vCenter=true&width=500&lines=Exploring+Web3+and+Decentralized+Apps;Optimizing+Real-Time+Data+Pipelines;Building+Next-Gen+3D+Web+Experiences;Contributing+to+Open+Source" alt="Current Focus SVG" />
   </p>
 
   <br/>
