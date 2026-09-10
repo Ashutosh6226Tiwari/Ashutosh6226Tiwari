@@ -66,7 +66,7 @@
 ### 📈 Activity Overview
 
 <p>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashutosh6226Tiwari&bg_color=09090b&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="GitHub Activity Graph">
+<img src="./profile-summary-card-output/radical/2-activity-graph.svg" width="100%" alt="GitHub Activity Graph">
 </p>
 
 <br/>
