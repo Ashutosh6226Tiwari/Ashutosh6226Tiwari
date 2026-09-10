@@ -6,7 +6,7 @@
 
 <p>
 <a href="https://github.com/Ashutosh6226Tiwari">
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=900&size=24&duration=3000&pause=1000&color=a855f7&center=true&vCenter=true&width=600&lines=Software+Engineer;Full-Stack+Developer;Creative+Designer;Problem+Solver" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=900&size=24&duration=3000&pause=1000&color=a855f7&center=true&vCenter=true&width=600&lines=Software+Engineer;Full-Stack+Developer;Creative+Designer;Problem+Solver" alt="Typing animation showing developer roles">
 </a>
 </p>
 
@@ -21,16 +21,16 @@
 ### 🚀 Tech Stack
 
 <p>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,python,java,cpp&theme=dark" /></a>
+<img src="https://skillicons.dev/icons?i=ts,js,python,java,cpp&theme=dark" alt="Programming Languages">
 </p>
 <p>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,nextjs,threejs,nodejs,express&theme=dark" /></a>
+<img src="https://skillicons.dev/icons?i=react,nextjs,threejs,nodejs,express&theme=dark" alt="Frameworks">
 </p>
 <p>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,docker,aws&theme=dark" /></a>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,docker,aws&theme=dark" alt="Databases and Cloud">
 </p>
 <p>
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,linux,figma,postman,vim&theme=dark" /></a>
+<img src="https://skillicons.dev/icons?i=git,linux,figma,postman,vim&theme=dark" alt="Tools">
 </p>
 
 <br/>
@@ -39,10 +39,10 @@
 
 <p>
 <!-- GitHub Streak Stats (Highly Reliable) -->
-<img src="https://streak-stats.demolab.com/?user=Ashutosh6226Tiwari&theme=dark&background=09090b&border=27272a&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideNums=a1a1aa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa" height="195" alt="GitHub Streak" />
-
+<img src="https://streak-stats.demolab.com/?user=Ashutosh6226Tiwari&theme=dark&background=09090b&border=27272a&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideNums=a1a1aa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa" height="195" alt="GitHub Streak">
+&nbsp;
 <!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&icon_color=a855f7&title_color=a855f7&text_color=a1a1aa&show_icons=true" height="195" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&icon_color=a855f7&title_color=a855f7&text_color=a1a1aa&show_icons=true" height="195" alt="GitHub Stats">
 </p>
 
 <p>
@@ -66,7 +66,7 @@
 ### 🎯 Current Focus
 
 <p>
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=16&duration=4000&pause=1000&color=22d3ee&center=true&vCenter=true&width=500&lines=Exploring+Web3+and+Decentralized+Apps;Optimizing+Real-Time+Data+Pipelines;Building+Next-Gen+3D+Web+Experiences;Contributing+to+Open+Source" alt="Current Focus SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=16&duration=4000&pause=1000&color=22d3ee&center=true&vCenter=true&width=500&lines=Exploring+Web3+and+Decentralized+Apps;Optimizing+Real-Time+Data+Pipelines;Building+Next-Gen+3D+Web+Experiences;Contributing+to+Open+Source" alt="Current focus areas">
 </p>
 
 <br/>
@@ -81,5 +81,5 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=a855f7&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=a855f7&height=100&section=footer" width="100%" alt="Waving footer animation">
 </div>
