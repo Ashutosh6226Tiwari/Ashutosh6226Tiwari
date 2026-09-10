@@ -42,11 +42,11 @@
 <img src="https://streak-stats.demolab.com/?user=Ashutosh6226Tiwari&theme=dark&background=09090b&border=27272a&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideNums=a1a1aa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa" height="195" alt="GitHub Streak">
 &nbsp;
 <!-- GitHub Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&icon_color=a855f7&title_color=a855f7&text_color=a1a1aa&show_icons=true" height="195" alt="GitHub Stats">
+<img src="https://github-stats-extended.vercel.app/api?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&icon_color=a855f7&title_color=a855f7&text_color=a1a1aa&show_icons=true" height="195" alt="GitHub Stats">
 </p>
 
 <p>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&title_color=a855f7&text_color=a1a1aa&layout=compact" height="195" alt="Top Languages" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&title_color=a855f7&text_color=a1a1aa&layout=compact" height="195" alt="Top Languages">
 </p>
 
 <br/>
