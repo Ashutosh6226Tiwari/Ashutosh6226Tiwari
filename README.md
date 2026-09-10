@@ -41,12 +41,12 @@
 <!-- GitHub Streak Stats (Highly Reliable) -->
 <img src="https://streak-stats.demolab.com/?user=Ashutosh6226Tiwari&theme=dark&background=09090b&border=27272a&ring=a855f7&fire=a855f7&currStreakNum=ffffff&sideNums=a1a1aa&currStreakLabel=a1a1aa&sideLabels=a1a1aa&dates=a1a1aa" height="195" alt="GitHub Streak">
 &nbsp;
-<!-- GitHub Stats -->
-<img src="https://github-stats-extended.vercel.app/api?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&icon_color=a855f7&title_color=a855f7&text_color=a1a1aa&show_icons=true" height="195" alt="GitHub Stats">
+<!-- GitHub Profile Summary (Generated natively via Action) -->
+<img src="./profile-summary-card-output/radical/0-profile-details.svg" alt="GitHub Profile Details">
 </p>
 
 <p>
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Ashutosh6226Tiwari&bg_color=09090b&border_color=27272a&title_color=a855f7&text_color=a1a1aa&layout=compact" height="195" alt="Top Languages">
+<img src="./profile-summary-card-output/radical/1-repos-per-language.svg" alt="Top Languages">
 </p>
 
 <br/>
@@ -59,6 +59,14 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ashutosh6226Tiwari/Ashutosh6226Tiwari/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Ashutosh6226Tiwari/Ashutosh6226Tiwari/output/github-contribution-grid-snake-dark.svg" width="100%">
 </picture>
+</p>
+
+<br/>
+
+### 📈 Activity Overview
+
+<p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashutosh6226Tiwari&bg_color=09090b&color=a855f7&line=a855f7&point=ffffff&area=true&hide_border=true" width="100%" alt="GitHub Activity Graph">
 </p>
 
 <br/>
